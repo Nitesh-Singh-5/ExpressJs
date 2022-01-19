@@ -1,5 +1,8 @@
+import { join } from 'path';
+
 const allStudent = (req, res) => {
-    res.send("All Student");
+    // res.sendFile('c:\\expressjs\\Module7\\views\\index.html');
+    res.sendFile(join(process.cwd(), 'views', 'student.html'));
 }
 
 const deleteStudent = (req, res) => {
