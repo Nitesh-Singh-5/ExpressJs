@@ -7,7 +7,7 @@ const port = process.env.PORT || '3000'
 
 
 //Setup the template Engineto use
-app.set('view engine','ejs');
+app.set('view engine', 'ejs');
 
 // Load Routes
 app.use('/student', student);
@@ -15,3 +15,6 @@ app.use('/student', student);
 app.listen(port, () => {
     console.log(`server listening at ${port}`);
 })
+
+// Ejs - Tutorial
+// https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application
