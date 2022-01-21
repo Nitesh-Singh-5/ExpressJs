@@ -9,20 +9,17 @@ import mongoose from "mongoose";
 //         })
 // }
 const connectDB = async (DATABASE_URL) => {
-    try{
+    try {
         const DB_options = {
-            user:'Nitesh',
-            pass:'123456',
-            dbName:'schooldb',
-            authSource:'schooldb',
+            dbName: 'schooldb',
+
         }
 
-
-        await mongoose.connect(DATABASE_URL,DB_options)
+        await mongoose.connect(DATABASE_URL, DB_options)
         console.log("Connected Successfully");
-    }catch(err) {
-            console.log(err);
-}
+    } catch (err) {
+        console.log(err);
+    }
 }
 
 export default connectDB;
