@@ -16,3 +16,5 @@ replace "test" with "dev":"nodemon app"
 
 npm i express@5.0.0-alpha.8
 npm i -D nodemon
+npm i escapejs
+npm i mongoose
