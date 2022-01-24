@@ -18,3 +18,11 @@ npm i express@5.0.0-alpha.8
 npm i -D nodemon
 npm i ejs
 npm i mongoose
+npm i cookie-parser
+npm i express-session
+
+// bcrypt for password hashing
+npm i bcrypt
+
+// for dotenv
+npm i dotenv
